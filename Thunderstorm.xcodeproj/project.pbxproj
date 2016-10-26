@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C020AA851DC0AAA0004B925D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C020AA841DC0AAA0004B925D /* AppDelegate.swift */; };
+		C020AA871DC0AAA0004B925D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C020AA861DC0AAA0004B925D /* ViewController.swift */; };
+		C020AA8C1DC0AAA1004B925D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C020AA8B1DC0AAA1004B925D /* Assets.xcassets */; };
+		C020AA9A1DC0AAA1004B925D /* ThunderstormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C020AA991DC0AAA1004B925D /* ThunderstormTests.swift */; };
+		C020AAA51DC0AAA1004B925D /* ThunderstormUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C020AAA41DC0AAA1004B925D /* ThunderstormUITests.swift */; };
+		C020AAB81DC0AE9A004B925D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C020AAB71DC0AE9A004B925D /* Main.storyboard */; };
+		C020AABA1DC0AEB3004B925D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C020AAB91DC0AEB3004B925D /* LaunchScreen.storyboard */; };
+		C020AABC1DC0B2B4004B925D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C020AABB1DC0B2B4004B925D /* .gitignore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C020AA961DC0AAA1004B925D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C020AA791DC0AAA0004B925D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C020AA801DC0AAA0004B925D;
+			remoteInfo = Thunderstorm;
+		};
+		C020AAA11DC0AAA1004B925D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C020AA791DC0AAA0004B925D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C020AA801DC0AAA0004B925D;
+			remoteInfo = Thunderstorm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C020AA811DC0AAA0004B925D /* Thunderstorm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thunderstorm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C020AA841DC0AAA0004B925D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C020AA861DC0AAA0004B925D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C020AA8B1DC0AAA1004B925D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C020AA901DC0AAA1004B925D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C020AA951DC0AAA1004B925D /* ThunderstormTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThunderstormTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C020AA991DC0AAA1004B925D /* ThunderstormTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThunderstormTests.swift; sourceTree = "<group>"; };
+		C020AA9B1DC0AAA1004B925D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C020AAA01DC0AAA1004B925D /* ThunderstormUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThunderstormUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C020AAA41DC0AAA1004B925D /* ThunderstormUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThunderstormUITests.swift; sourceTree = "<group>"; };
+		C020AAA61DC0AAA1004B925D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C020AAB71DC0AE9A004B925D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C020AAB91DC0AEB3004B925D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C020AABB1DC0B2B4004B925D /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C020AA7E1DC0AAA0004B925D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C020AA921DC0AAA1004B925D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C020AA9D1DC0AAA1004B925D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C020AA781DC0AA9F004B925D = {
+			isa = PBXGroup;
+			children = (
+				C020AABB1DC0B2B4004B925D /* .gitignore */,
+				C020AA831DC0AAA0004B925D /* Thunderstorm */,
+				C020AA981DC0AAA1004B925D /* ThunderstormTests */,
+				C020AAA31DC0AAA1004B925D /* ThunderstormUITests */,
+				C020AA821DC0AAA0004B925D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C020AA821DC0AAA0004B925D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C020AA811DC0AAA0004B925D /* Thunderstorm.app */,
+				C020AA951DC0AAA1004B925D /* ThunderstormTests.xctest */,
+				C020AAA01DC0AAA1004B925D /* ThunderstormUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C020AA831DC0AAA0004B925D /* Thunderstorm */ = {
+			isa = PBXGroup;
+			children = (
+				C020AAB61DC0AE54004B925D /* Storyboards */,
+				C020AAB51DC0AD9E004B925D /* Supporting Files */,
+				C020AAB41DC0ACEF004B925D /* Resources */,
+				C020AAB31DC0AC93004B925D /* View Controllers */,
+				C020AAB21DC0AAF0004B925D /* Application Delegate */,
+			);
+			path = Thunderstorm;
+			sourceTree = "<group>";
+		};
+		C020AA981DC0AAA1004B925D /* ThunderstormTests */ = {
+			isa = PBXGroup;
+			children = (
+				C020AA991DC0AAA1004B925D /* ThunderstormTests.swift */,
+				C020AA9B1DC0AAA1004B925D /* Info.plist */,
+			);
+			path = ThunderstormTests;
+			sourceTree = "<group>";
+		};
+		C020AAA31DC0AAA1004B925D /* ThunderstormUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C020AAA41DC0AAA1004B925D /* ThunderstormUITests.swift */,
+				C020AAA61DC0AAA1004B925D /* Info.plist */,
+			);
+			path = ThunderstormUITests;
+			sourceTree = "<group>";
+		};
+		C020AAB21DC0AAF0004B925D /* Application Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				C020AA841DC0AAA0004B925D /* AppDelegate.swift */,
+			);
+			path = "Application Delegate";
+			sourceTree = "<group>";
+		};
+		C020AAB31DC0AC93004B925D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C020AA861DC0AAA0004B925D /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C020AAB41DC0ACEF004B925D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C020AA8B1DC0AAA1004B925D /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C020AAB51DC0AD9E004B925D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C020AA901DC0AAA1004B925D /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C020AAB61DC0AE54004B925D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C020AAB71DC0AE9A004B925D /* Main.storyboard */,
+				C020AAB91DC0AEB3004B925D /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C020AA801DC0AAA0004B925D /* Thunderstorm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C020AAA91DC0AAA1004B925D /* Build configuration list for PBXNativeTarget "Thunderstorm" */;
+			buildPhases = (
+				C020AA7D1DC0AAA0004B925D /* Sources */,
+				C020AA7E1DC0AAA0004B925D /* Frameworks */,
+				C020AA7F1DC0AAA0004B925D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Thunderstorm;
+			productName = Thunderstorm;
+			productReference = C020AA811DC0AAA0004B925D /* Thunderstorm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C020AA941DC0AAA1004B925D /* ThunderstormTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C020AAAC1DC0AAA1004B925D /* Build configuration list for PBXNativeTarget "ThunderstormTests" */;
+			buildPhases = (
+				C020AA911DC0AAA1004B925D /* Sources */,
+				C020AA921DC0AAA1004B925D /* Frameworks */,
+				C020AA931DC0AAA1004B925D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C020AA971DC0AAA1004B925D /* PBXTargetDependency */,
+			);
+			name = ThunderstormTests;
+			productName = ThunderstormTests;
+			productReference = C020AA951DC0AAA1004B925D /* ThunderstormTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C020AA9F1DC0AAA1004B925D /* ThunderstormUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C020AAAF1DC0AAA1004B925D /* Build configuration list for PBXNativeTarget "ThunderstormUITests" */;
+			buildPhases = (
+				C020AA9C1DC0AAA1004B925D /* Sources */,
+				C020AA9D1DC0AAA1004B925D /* Frameworks */,
+				C020AA9E1DC0AAA1004B925D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C020AAA21DC0AAA1004B925D /* PBXTargetDependency */,
+			);
+			name = ThunderstormUITests;
+			productName = ThunderstormUITests;
+			productReference = C020AAA01DC0AAA1004B925D /* ThunderstormUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C020AA791DC0AAA0004B925D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Ewan Sheldon";
+				TargetAttributes = {
+					C020AA801DC0AAA0004B925D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					C020AA941DC0AAA1004B925D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C020AA801DC0AAA0004B925D;
+					};
+					C020AA9F1DC0AAA1004B925D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C020AA801DC0AAA0004B925D;
+					};
+				};
+			};
+			buildConfigurationList = C020AA7C1DC0AAA0004B925D /* Build configuration list for PBXProject "Thunderstorm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C020AA781DC0AA9F004B925D;
+			productRefGroup = C020AA821DC0AAA0004B925D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C020AA801DC0AAA0004B925D /* Thunderstorm */,
+				C020AA941DC0AAA1004B925D /* ThunderstormTests */,
+				C020AA9F1DC0AAA1004B925D /* ThunderstormUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C020AA7F1DC0AAA0004B925D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C020AABC1DC0B2B4004B925D /* .gitignore in Resources */,
+				C020AABA1DC0AEB3004B925D /* LaunchScreen.storyboard in Resources */,
+				C020AA8C1DC0AAA1004B925D /* Assets.xcassets in Resources */,
+				C020AAB81DC0AE9A004B925D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C020AA931DC0AAA1004B925D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C020AA9E1DC0AAA1004B925D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C020AA7D1DC0AAA0004B925D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C020AA871DC0AAA0004B925D /* ViewController.swift in Sources */,
+				C020AA851DC0AAA0004B925D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C020AA911DC0AAA1004B925D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C020AA9A1DC0AAA1004B925D /* ThunderstormTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C020AA9C1DC0AAA1004B925D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C020AAA51DC0AAA1004B925D /* ThunderstormUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C020AA971DC0AAA1004B925D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C020AA801DC0AAA0004B925D /* Thunderstorm */;
+			targetProxy = C020AA961DC0AAA1004B925D /* PBXContainerItemProxy */;
+		};
+		C020AAA21DC0AAA1004B925D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C020AA801DC0AAA0004B925D /* Thunderstorm */;
+			targetProxy = C020AAA11DC0AAA1004B925D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C020AAA71DC0AAA1004B925D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C020AAA81DC0AAA1004B925D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C020AAAA1DC0AAA1004B925D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/Thunderstorm/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ewan.Thunderstorm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C020AAAB1DC0AAA1004B925D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/Thunderstorm/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ewan.Thunderstorm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C020AAAD1DC0AAA1004B925D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ThunderstormTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ewan.ThunderstormTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thunderstorm.app/Thunderstorm";
+			};
+			name = Debug;
+		};
+		C020AAAE1DC0AAA1004B925D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ThunderstormTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ewan.ThunderstormTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thunderstorm.app/Thunderstorm";
+			};
+			name = Release;
+		};
+		C020AAB01DC0AAA1004B925D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ThunderstormUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ewan.ThunderstormUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Thunderstorm;
+			};
+			name = Debug;
+		};
+		C020AAB11DC0AAA1004B925D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ThunderstormUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ewan.ThunderstormUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Thunderstorm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C020AA7C1DC0AAA0004B925D /* Build configuration list for PBXProject "Thunderstorm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C020AAA71DC0AAA1004B925D /* Debug */,
+				C020AAA81DC0AAA1004B925D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C020AAA91DC0AAA1004B925D /* Build configuration list for PBXNativeTarget "Thunderstorm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C020AAAA1DC0AAA1004B925D /* Debug */,
+				C020AAAB1DC0AAA1004B925D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C020AAAC1DC0AAA1004B925D /* Build configuration list for PBXNativeTarget "ThunderstormTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C020AAAD1DC0AAA1004B925D /* Debug */,
+				C020AAAE1DC0AAA1004B925D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C020AAAF1DC0AAA1004B925D /* Build configuration list for PBXNativeTarget "ThunderstormUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C020AAB01DC0AAA1004B925D /* Debug */,
+				C020AAB11DC0AAA1004B925D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C020AA791DC0AAA0004B925D /* Project object */;
+}
